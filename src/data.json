@@ -1,0 +1,62 @@
+[
+  {
+    "no": 1,
+    "name": "臺東縣",
+    "value": 1,
+    "quantity": 1
+  },
+  {
+    "no": 2,
+    "name": "屏東縣",
+    "value": 1,
+    "quantity": 1
+  },
+  {
+    "no": 3,
+    "name": "苗栗縣",
+    "value": 2,
+    "quantity": 2
+  },
+  {
+    "no": 4,
+    "name": " 桃園市",
+    "value": 2,
+    "quantity": 2
+  },
+  {
+    "no": 5,
+    "name": "高雄市",
+    "value": 13,
+    "quantity": 13
+  },
+  {
+    "no": 6,
+    "name": "新北市",
+    "value": 2,
+    "quantity": 2
+  },
+  {
+    "no": 7,
+    "name": "新竹縣",
+    "value": 1,
+    "quantity": 1
+  },
+  {
+    "no": 8,
+    "name": "臺中市",
+    "value": 4,
+    "quantity": 4
+  },
+  {
+    "no": 9,
+    "name": "臺南市",
+    "value": 1,
+    "quantity": 1
+  },
+  {
+    "no": 10,
+    "name": " 澎湖縣",
+    "value": 1,
+    "quantity": 1
+  }
+]

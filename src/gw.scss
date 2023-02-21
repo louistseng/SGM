@@ -1,0 +1,58 @@
+body,
+html {
+    font-family: "W5-font";
+    background: #c6e6e8;
+}
+::-webkit-scrollbar {
+    /*隱藏滾輪*/
+    display: none;
+}
+
+@font-face {
+    font-family: "W5-font";
+    src: url(./fonts/W5-font2.TTF);
+}
+
+.gw-container {
+    max-width: 2180px;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    position: relative;
+}
+
+.left-side {
+    width: 30%;
+    height: 100%;
+    .gw-warning {
+        width: 95%;
+        height: 22rem;
+        padding: 3rem 0;
+        background-color: #44546a;
+        color: #ffffff;
+        text-align: center;
+        margin: 2rem auto;
+        font-size: calc(4rem + 1vw);
+        box-shadow: 3px 3px 3px #44546a;
+        z-index: 0;
+    }
+    img {
+        width: 90%;
+        margin-top: -4rem;
+        z-index: 1;
+    }
+}
+
+.right-side {
+    width: 70%;
+    height: 98%;
+    border: 6px solid #fff;
+    margin: 0.5rem;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}

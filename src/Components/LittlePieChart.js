@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactApexChart from 'react-apexcharts';
 
-export default function LittlePieChart() {
+export default function LittlePieChart(props) {
+
+    const { siteFree, totalFreeSite } = props
+    const enterpriseFree = totalFreeSite - siteFree[0]
 
     /*累積改善解列-小甜甜圈圖圖*/
     let options = {
         fontFamily: "Microsoft JhengHei",
         labels: ["事業", "農地"],
         colors: ['#F75029', '#ecd23c'],
-        series: [1027, 6415],
+        series: [enterpriseFree, siteFree[0]],
         animationEnabled: true,
         legend: {
             show: false,
@@ -23,7 +26,6 @@ export default function LittlePieChart() {
             show: true,
         },
     }
-
 
     return (
 
